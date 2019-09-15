@@ -8,6 +8,7 @@
 
 `open .vimrc`
 
+
 3- Paste only what you want to be added:
 
 ```
@@ -20,11 +21,15 @@ set expandtab
 set smarttab
 set shiftwidth=2
 set tabstop=2
+
+
 " Disable arrows to improve your (hjkl) movements
 map <Down> <NOP>
 map <Up> <NOP>
 map <Left> <NOP>
 map <Right> <NOP>
+
+
 function! InsertStatuslineColor(mode)
 if a:mode == 'i'
 hi statusline guibg=Cyan ctermfg=6 guifg=Black ctermbg=0
@@ -34,10 +39,14 @@ else
 hi statusline guibg=DarkRed ctermfg=1 guifg=Black ctermbg=0
 endif
 endfunction
+
+
 au InsertEnter * call InsertStatuslineColor(v:insertmode)
 au InsertLeave * hi statusline guibg=DarkGrey ctermfg=8 guifg=White ctermbg=15
 " default the statusline to green when entering Vim
 hi statusline guibg=DarkGrey ctermfg=8 guifg=White ctermbg=15
+
+
 " Formats the statusline
 set statusline=%f                           " file name
 set statusline+=\ %y      "filetype
@@ -51,6 +60,7 @@ set statusline+=\ [%b][0x%B]\               " ASCII and byte code under cursor
 set statusline+=[%{&ff}] "file format
 ```
 
-4- Press _ESC_ and Type _:wq_.
+
+4- Press _ESC_ and Type _:wq_
 
 5- Reopen your terminal.
