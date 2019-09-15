@@ -48,7 +48,3 @@ set statusline+=\ Buf:%n                    " Buffer number
 set statusline+=\ [%b][0x%B]\               " ASCII and byte code under cursor
 set statusline+=[%{&ff}] "file format```
 
-4- press _ESC_ and type _:wq_
-
-5- reopen your terminal and have fun with your upgreaded VIM.
- 
