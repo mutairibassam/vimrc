@@ -8,8 +8,11 @@
 `open .vimrc`
 
 3- paste only what you want to be added
+
 `:set laststatus=2   " statuslne
+
 :set number         " set numbers
+
 syntax on
 set relativenumber
 set ruler
