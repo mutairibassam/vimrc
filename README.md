@@ -3,12 +3,12 @@
 ### vimrc file is hidden file that will upgread your vim terminal by adding colors, status mode, line numbers and without any plugins.
  
 1- open your terminal
+
 2- open your vimrc file
 `open .vimrc`
 
 3- paste only what you want to be added
-`
-:set laststatus=2   " statuslne
+`:set laststatus=2   " statuslne
 :set number         " set numbers
 syntax on
 set relativenumber
@@ -51,9 +51,9 @@ set statusline+=\ %=                        " align left
 set statusline+=Line:%l/%L
 set statusline+=\ Buf:%n                    " Buffer number
 set statusline+=\ [%b][0x%B]\               " ASCII and byte code under cursor
-set statusline+=[%{&ff}] "file format
-`
+set statusline+=[%{&ff}] "file format`
 
 4- press _ESC_ and type _:wq_
+
 5- reopen your terminal and have fun with your upgreaded VIM.
  
