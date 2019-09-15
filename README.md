@@ -61,6 +61,6 @@ set statusline+=[%{&ff}] "file format
 ```
 
 
-4- Press _ESC_ and Type _:wq_
+4- Press **ESC** and Type `:wq`
 
 5- Reopen your terminal.
