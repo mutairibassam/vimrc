@@ -6,7 +6,7 @@
 
 2- Open your vimrc file:
 
-`open .vimrc`
+`vim .vimrc`
 
 
 3- Paste only what you want to be added:
